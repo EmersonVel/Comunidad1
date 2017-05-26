@@ -7,9 +7,47 @@ namespace Comunidad1
 {
     public class propietario
     {
-        public string nombre;
-        public string nit;
-        public string email;
+        private string nombre;
+        private string nit;
+        private string email;
 
+        public string Nombre
+        {
+            get
+            {
+                return nombre;
+            }
+
+            set
+            {
+                nombre = value;
+            }
+        }
+
+        public string Nit
+        {
+            get
+            {
+                return nit;
+            }
+
+            set
+            {
+                nit = value;
+            }
+        }
+
+        public string Email
+        {
+            get
+            {
+                return email;
+            }
+
+            set
+            {
+                email = value;
+            }
+        }
     }
 }

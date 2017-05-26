@@ -11,5 +11,43 @@ namespace Comunidad1
         char vn;
         int No_dormitorios;
 
+        public char Vh
+        {
+            get
+            {
+                return vh;
+            }
+
+            set
+            {
+                vh = value;
+            }
+        }
+
+        public char Vn
+        {
+            get
+            {
+                return vn;
+            }
+
+            set
+            {
+                vn = value;
+            }
+        }
+
+        public int No_dormitorios1
+        {
+            get
+            {
+                return No_dormitorios;
+            }
+
+            set
+            {
+                No_dormitorios = value;
+            }
+        }
     }
 }
